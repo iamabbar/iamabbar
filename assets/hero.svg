@@ -1,0 +1,35 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="base" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05030C"/>
+      <stop offset="100%" stop-color="#150A2E"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#base)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.05"/>
+
+  <path fill="#1A0B2E" opacity="0.85">
+    <animate attributeName="d" dur="26s" repeatCount="indefinite"
+      values="
+        M0,210 C200,210 200,140 400,140 C600,140 600,280 800,280 C1000,280 1000,210 1200,210 L1200,320 L0,320 Z;
+        M0,210 C200,210 200,280 400,280 C600,280 600,140 800,140 C1000,140 1000,210 1200,210 L1200,320 L0,320 Z;
+        M0,210 C200,210 200,140 400,140 C600,140 600,280 800,280 C1000,280 1000,210 1200,210 L1200,320 L0,320 Z
+      "/>
+  </path>
+  <path fill="#000000" opacity="0.82">
+    <animate attributeName="d" dur="19s" repeatCount="indefinite"
+      values="
+        M0,255 C150,255 150,190 300,190 C500,190 500,320 700,320 C950,320 950,255 1200,255 L1200,320 L0,320 Z;
+        M0,255 C150,255 150,320 300,320 C500,320 500,190 700,190 C950,190 950,255 1200,255 L1200,320 L0,320 Z;
+        M0,255 C150,255 150,190 300,190 C500,190 500,320 700,320 C950,320 950,255 1200,255 L1200,320 L0,320 Z
+      "/>
+  </path>
+
+  <text x="70" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Mohamad Abbar</text>
+  <text x="70" y="190" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#E9D5FF">Software Engineer — Writing code that ships and lasts</text>
+  <text x="70" y="225" font-family="monospace" font-size="16" fill="#ffffff">Beirut, Lebanon 🇱🇧</text>
+</svg>

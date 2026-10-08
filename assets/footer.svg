@@ -1,0 +1,33 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="baseFoot" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05030C"/>
+      <stop offset="100%" stop-color="#150A2E"/>
+    </linearGradient>
+    <pattern id="gridFoot" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="140" fill="url(#baseFoot)"/>
+  <rect width="1200" height="140" fill="url(#gridFoot)" opacity="0.05"/>
+
+  <path fill="#1A0B2E" opacity="0.85">
+    <animate attributeName="d" dur="26s" repeatCount="indefinite"
+      values="
+        M0,100 C200,100 200,72 400,72 C600,72 600,128 800,128 C1000,128 1000,100 1200,100 L1200,140 L0,140 Z;
+        M0,100 C200,100 200,128 400,128 C600,128 600,72 800,72 C1000,72 1000,100 1200,100 L1200,140 L0,140 Z;
+        M0,100 C200,100 200,72 400,72 C600,72 600,128 800,128 C1000,128 1000,100 1200,100 L1200,140 L0,140 Z
+      "/>
+  </path>
+  <path fill="#000000" opacity="0.8">
+    <animate attributeName="d" dur="19s" repeatCount="indefinite"
+      values="
+        M0,112 C150,112 150,86 300,86 C500,86 500,138 700,138 C950,138 950,112 1200,112 L1200,140 L0,140 Z;
+        M0,112 C150,112 150,138 300,138 C500,138 500,86 700,86 C950,86 950,112 1200,112 L1200,140 L0,140 Z;
+        M0,112 C150,112 150,86 300,86 C500,86 500,138 700,138 C950,138 950,112 1200,112 L1200,140 L0,140 Z
+      "/>
+  </path>
+
+  <text x="60" y="56" font-family="monospace" font-size="28" fill="#ffffff">ready to merge into your team →</text>
+</svg>
