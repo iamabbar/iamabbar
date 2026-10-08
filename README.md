@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./assets/hero.svg" alt="Mohamad Abbar — Software Engineer"/>
+  <img width="100%" src="./assets/hero.svg" alt="Mohamad Abbar, Software Engineer"/>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 5 years turning hard-to-use interfaces into ones that feel obvious, based out of Beirut.
 
-Making it work is half the job — making it feel right is the other half. That's the lens I bring to everything, from treating design systems as agreements (not just component libraries) to treating AI features as interface problems before they're model problems.
+Making it work is half the job. Making it feel right is the other half. That's the lens I bring to everything, from treating design systems as agreements (not just component libraries) to treating AI features as interface problems before they're model problems.
 
 <br/>
 
@@ -60,7 +60,7 @@ When I'm not pushing pixels: ping pong, running, football, or basically anything
 
 ## 📊 GitHub
 
-*The quiet graph below doesn't tell the full story — most of my commits happen under a work account, in repos you'll never see.*
+*The quiet graph below doesn't tell the full story. Most of my commits happen under a work account, in repos you'll never see.*
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=iamabbar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
